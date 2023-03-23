@@ -28,9 +28,9 @@ services:
     volumes:
       - dev-db-data:/var/lib/postgresql/data
     environment:
-      - POSTFRES_DB=devdb
-      - POSTFRES_USER=duchp
-      - POSTFRES_PASSWD=admin@123
+      - POSTGRES_DB=devdb
+      - POSTGRES_USER=duchp
+      - POSTGRES_PASSWORD=admin@123
 
 volumes:
   dev-db-data:
